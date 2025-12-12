@@ -52,7 +52,18 @@ https://www.kaggle.com/datasets/orvile/kits19-png-zipped
 ##  Loss Function and Metrics Used
 
 - **Loss Function:** Dice+bce
-- **Evaluation Metric:** DiceMetric , HD95( from MONAI)
+- **Evaluation Metric:** DiceMetric , HD95 , precsion , recall( from MONAI)
+
+
+### **Final Validation Summary**
+
+Dice ≈ 0.90+
+IoU ≈ 0.89+
+Precision ≈ 0.90+
+Recall ≈ 0.98+
+Hausdorff Distance ≈ 4–7
+
+
 
 
 
