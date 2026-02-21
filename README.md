@@ -67,3 +67,18 @@ Hausdorff Distance ≈ 4–7
 
 
 
+
+
+## Docker Quick Start
+
+If you are new to Docker, use the beginner guide here:
+- **docs/DOCKER_DEPLOYMENT.md**
+
+Quick commands:
+
+```bash
+docker build -t kidney-segmentation:latest .
+docker run --rm -it -p 8888:8888 -v "${PWD}:/app" kidney-segmentation:latest
+```
+
+Then open: http://localhost:8888
